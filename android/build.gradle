@@ -24,6 +24,8 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 30
 
+    namespace 'com.dsaved.bubblehead.bubble' // 👈 Add this line
+
     defaultConfig {
         minSdkVersion 16
     }
